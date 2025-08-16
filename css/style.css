@@ -1,0 +1,84 @@
+body{
+    /* background-color: deepskyblue; */
+    background-image: url('../img/back.jpg');
+    background-size: cover;
+    font-family: Arial;
+}
+
+#outer{
+    width: 450px;
+    margin: 100px auto;
+    border-radius: 25px;
+    background: linear-gradient(45deg, rgba(20, 30, 48, 0.8), rgba(36, 59, 85, 0.8));
+    padding: 40px;
+    /* filter: drop-shadow(8px 8px 5px black); */
+    /* box-shadow: 6px 6px 3px rgba(36, 59, 85, 0.8); */
+}
+
+#search{
+    height: 50px;
+    /* background-color: deepskyblue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#search>input{
+    width: 75%;
+    height: 40px;
+    border-radius: 20px;
+    border: 0px;
+    padding-left: 20px;
+    font-size: 20px;
+    color: navy;
+    /* outline: none; */
+}
+#search>input::placeholder{
+    color: darkblue;
+}
+#search>input:focus{
+    outline: 0;
+}
+
+#search>img{
+    height: 40px;
+    padding: 5px 7px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+/* If you want to center an inline element then first keep it inside a block level element then center its content. */
+#main{
+    text-align: center;
+    color: white;
+    display: None;
+}
+#main>img{
+    height: 150px;
+    margin-top: 10px;
+}
+#main>h3{
+    font-size: 40px;
+    margin: 0;
+}
+#main span{
+    font-size: 25px;
+    display: inline-block;
+    margin: 10px 5px;
+}
+
+#main>div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.col{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 0 0;
+}
+.col p{
+    font-size: 18px;
+    padding-left: 10px;
+}
