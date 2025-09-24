@@ -11,3 +11,4 @@ Dynamic visuals change based on the weather (e.g., rain, haze, clear sky). Built
 - Responsive design for mobile and desktop
 
 Live Demo: [Weather App](https://vikrant-codes.github.io/Weather-App/)
+Netlify: [The Weather Wizard](https://the-weather-wizard.netlify.app/).
